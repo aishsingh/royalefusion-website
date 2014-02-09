@@ -1,0 +1,21 @@
+.paragraphs #border_top {
+    background-image: url(../images/rounded_top_large.png);
+    width: 720px;
+    height: 10px;
+}
+.paragraphs #border_side {
+    background-image: url(../images/rounded_sides_large.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    text-align: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paragraphs #border_bottom {
+    background-image: url(../images/rounded_bottom_large.png);
+    width: 720px;
+    height: 10px;
+}

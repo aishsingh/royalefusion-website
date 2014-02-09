@@ -1,0 +1,40 @@
+* {
+	font-family: "Veranda";
+}
+
+.header #logo {
+	margin-left: 50px;
+	margin-top: 15px;
+}
+.navigation {
+	float: right;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -30px;
+	font-size: 15px;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 5px; /* Set margin and padding for cross browser consistency. */
+	list-style-type: none; /* Needed to eliminate list item marker */
+	text-align: center; /* Centers navigation bar */
+}
+
+.navigation ul li {
+	display: inline; 
+}
+
+.navigation ul li a {
+	text-decoration: none; /* The setting of "none" allows the link to not be underlined. This is up to user preference. */
+	padding-left: 10px; /* Gives the link space inside it's individual block. */
+	padding-right: 10px;
+	color: #000; /* Set as desired */
+	background-color: #FFF; /* Set as desired */
+}
+
+.navigation ul li a:hover {
+	color: #ed1c24;
+	background-color: #FFF; /* Both of these values create the "Rollover effect, Set as desired */
+}

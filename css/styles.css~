@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+    margin: 0;
+}
+
+html {
+	height: 100%;
+	background-image: url(../images/page_tile.png);
+}
+
+body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: repeat-y;
+	background-image: url(../images/page_bg.pngg);
+}
+
+.wrapper .push {
+	height: 100px;
+}
+
+.wrapper .page_bg {
+	width: 1000px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: repeat-y;
+	background-image: url(../images/page_bg.pngg);
+}
+
+.wrapper .page {
+	max-width: 980px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+}
+
+.navigation {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 5px; /* Set margin and padding for cross browser consistency. */
+	list-style-type: none; /* Needed to eliminate list item marker */
+	text-align: center; /* Centers navigation bar */
+}
+
+.navigation ul li {
+	display: inline; 
+}
+
+.navigation ul li a {
+	text-decoration: none; /* The setting of "none" allows the link to not be underlined. This is up to user preference. */
+	padding-left: 20px; /* Gives the link space inside it's individual block. */
+	padding-right: 30px;
+	color: #000; /* Set as desired */
+	background-color: #FFF; /* Set as desired */
+}
+
+.navigation ul li a:hover {
+	color: #ed1c24;
+	background-color: #FFF; /* Both of these values create the "Rollover effect, Set as desired */
+}
+
+.paragraphs {
+	width: 720px;
+    margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding-top: 15px;
+}
+
+.header #timing {
+	float: right;
+	margin-right: 240px;
+	margin-top: -85px;
+	font-size: small;
+}
+.header #logo_small {
+	left: 0px;
+	margin-left: 20px;
+}
+.header #logo {
+	margin-left: 130px;
+	margin-top: -100px;
+	position: absolute;
+}
+.header a {
+	margin-left: 845px;
+	margin-top: -100px;
+	position: absolute;
+}
+
+.footer {
+	width: 1000px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: x-small;
+}
+
+.footer .links {
+	height: 75px;
+	padding-top: 10px;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer .links #fb_likes {
+	width: 60px;
+	height: 75px;
+	float: right;
+	margin-right: 10px;
+	background-image: url(../images/links_bg.png);
+}
+
+.footer .links #fb_likes iframe {
+	width: 50px;
+	height: 62px;
+	margin-left: 2px;
+	margin-top: 10px;
+}
+
+.footer .links #fb_icon {
+	width: 60px;
+	height: 75px;
+	float: right;
+	margin-right: 10px;
+	background-image: url(../images/links_bg.png);
+}
+.footer .links #fb_icon img {
+	margin-left: 3px;
+	margin-top: 7px;
+	width: 60px;
+	height: 60px;
+}
+
+
+.footer .links #gmaps_icon {
+	width: 60px;
+	height: 75px;
+	float: right;
+	margin-right: 10px;
+	background-image: url(../images/links_bg.png);
+}
+.footer .links #gmaps_icon img {
+	margin-left: 3px;
+	margin-top: 7px;
+	width: 60px;
+	height: 60px;
+}
+
+.footer #foot {
+	width: 982px;
+	height: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+}
+.footer #foot #credits {
+	float: left;
+	padding-top: 1px;
+	margin-left: 5px;
+	color: #A0A0A0;
+}

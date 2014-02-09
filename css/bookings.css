@@ -1,0 +1,102 @@
+textarea {
+	resize: none;
+}
+
+#ui-datepicker-div { 
+	display: none; 
+}
+
+.container {
+	height: 710px;
+}
+
+.booking #border_top {
+	background-image: url(../images/rounded_top_xsmall.png);
+	width: 420px;
+	height: 10px;
+}
+.booking #border_side {
+	height: 600px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-image: url(../images/rounded_sides_xsmall.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.booking #border_side form {
+	margin-top: 20px;
+}
+
+.booking #border_side form table {
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+.booking #border_bottom {
+	background-image: url(../images/rounded_bottom_xsmall.png);
+	width: 420px;
+	height: 10px;
+}
+
+
+.bookarestaurantbooking #border_top {
+	background-image: url(../images/rounded_top_xsmall.png);
+	width: 420px;
+	height: 10px;
+}
+.bookarestaurantbooking #border_side {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-image: url(../images/rounded_sides_xsmal.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.bookarestaurantbooking #border_bottom {
+	background-image: url(../images/rounded_bottom_xsmall.png);
+	width: 420px;
+	height: 10px;
+}
+
+
+.bookarestaurantbooking {
+	width: 420px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 65px;
+}
+.booking {
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 65px;
+	text-align: left;
+}
+
+.booking #border_side img {
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+.booking #border_side #heading {
+	margin-left: 25px;
+}
+
+.booking #border_side form submitButton {
+	margin-top: 5px;
+}
+
+#booking_divider {
+	background-color: #ed1c24;
+	width: 2px;
+	height: 675px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 50px;
+}
